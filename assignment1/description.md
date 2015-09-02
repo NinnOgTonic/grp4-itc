@@ -8,7 +8,7 @@
 
     **Background**: Why is this problem important to address?
 
-    **Vision**: 
+    **Vision**: What do you image the the outcome to be ?
 
     **Next steps**: What are your plans for the next phase of the project?
 
