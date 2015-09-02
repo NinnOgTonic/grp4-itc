@@ -3,7 +3,7 @@
   David Boye Gandrup(xxxXXX) \
   Morten Espensen(xxxXXX) \
   Niklas Høj(xxxXXX) \
-  Sokratis Siozos - Drosos(xxxXXX)
+  Sokratis Siozos - Drosos(dnb823)
 % Assignment 1
 
 \pagebreak
