@@ -1,0 +1,125 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{key-to-success-p1}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {AKRICH}{A.}%
+     {MADELEINE}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {CALLON}{C.}%
+     {MICHEL}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LATOUR}{L.}%
+     {BRUNO}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {MONAGHAN}{M.}%
+     {ADRIAN}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AM+1}
+  \strng{fullhash}{AMCMLBMA1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1142/S1363919602000550
+  \endverb
+  \verb{eprint}
+  \verb http://www.worldscientific.com/doi/pdf/10.1142/S1363919602000550
+  \endverb
+  \field{number}{02}
+  \field{pages}{187\bibrangedash 206}
+  \field{title}{THE KEY TO SUCCESS IN INNOVATION PART I: THE ART OF
+  INTERESSEMENT}
+  \verb{url}
+  \verb http://www.worldscientific.com/doi/abs/10.1142/S1363919602000550
+  \endverb
+  \field{volume}{06}
+  \field{journaltitle}{International Journal of Innovation Management}
+  \field{year}{2002}
+\endentry
+
+\entry{bodker}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bodker}{B.}%
+     {Kerl}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kensing}{K.}%
+     {Finn}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Simonsen}{S.}%
+     {Jesper}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{BKKFSJ1}
+  \strng{fullhash}{BKKFSJ1}
+  \field{sortinit}{B}
+  \field{isbn}{026202568X}
+  \field{title}{Participatory It Design: Designing for Business and Workplace
+  Realities}
+  \list{location}{1}{%
+    {Cambridge, MA, USA}%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{callon}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Callon}{C.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CM1}
+  \strng{fullhash}{CM1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1111/j.1467-954X.1984.tb00113.x
+  \endverb
+  \field{issn}{1467-954X}
+  \field{pages}{196\bibrangedash 233}
+  \field{title}{Some elements of a sociology of translation: domestication of
+  the scallops and the fishermen of St Brieuc Bay}
+  \verb{url}
+  \verb http://dx.doi.org/10.1111/j.1467-954X.1984.tb00113.x
+  \endverb
+  \field{volume}{32}
+  \field{journaltitle}{The Sociological Review}
+  \field{year}{1984}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

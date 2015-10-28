@@ -110,7 +110,8 @@ morekeywords={*,...,xchar,xstring,xmany1,chainl1,chainl1',ReadP}            % if
 \usepackage{pdfpages} % til at tilføje apendix
 \usepackage{graphicx}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
-
+%\usepackage[backend=bibtex]{biblatex} %backend tells biblatex what you will be using to process the bibliography file
+%\bibliography{report.bib}
 \def\thesection{\thechapter.\arabic{section}}
 %\renewcommand{\thesubsection} {\thesection.\alph{subsection}}
 
@@ -177,8 +178,9 @@ Niklas Høj (nwv762)\\
 \end{titlepage}
 \tableofcontents
 
-\newpage
 
+
+\newpage
 \include{abstract}
 \include{summary}
 \include{method}
@@ -189,6 +191,39 @@ Niklas Høj (nwv762)\\
 %\include{workdomains}
 %\include{scope}
 %\include{businesscanvas}
+
+
+
+\begin{thebibliography}{9}
+
+\bibitem{key-to-success-p1}
+  {AKRICH, MADELEINE and CALLON, MICHEL and LATOUR, BRUNO and MONAGHAN, ADRIAN},
+  \emph{THE KEY TO SUCCESS IN INNOVATION PART I: THE ART OF INTERESSEMENT},
+  International Journal of Innovation Management,
+  187-206,
+  2002.
+
+\bibitem{key-to-success-p2}
+  {AKRICH, MADELEINE and CALLON, MICHEL and LATOUR, BRUNO and MONAGHAN, ADRIAN},
+  \emph{THE KEY TO SUCCESS IN INNOVATION PART II: THE ART OF CHOOSING GOOD SPOKESPERSONS},
+  International Journal of Innovation Management,
+  207-225,
+  2002.
+
+\bibitem{bodker}
+  {Bodker, Kerl and Kensing, Finn and Simonsen, Jesper},
+  \emph{Participatory It Design: Designing for Business and Workplace Realities},
+  Cambridge, MA, USA,
+  MIT Press,
+  2004.
+
+\bibitem{callon}
+  {Michel Callon},
+  \emph{Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay},
+  The Sociological Review,
+  196-233,
+  1984.
+\end{thebibliography}
 
 \include{appendix}
 
